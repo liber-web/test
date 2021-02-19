@@ -1,0 +1,26 @@
+{
+  "name": "liber-renew",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "webserver": "http-server ./dist -o -p 8000"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "cheerio": "^1.0.0-rc.5",
+    "fibers": "^5.0.0",
+    "http-server": "^0.12.3",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
+  }
+}
